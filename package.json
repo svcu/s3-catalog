@@ -1,0 +1,24 @@
+{
+  "name": "s3-catalog",
+  "version": "1.0.0",
+  "description": "Catalog for S3 telegram channels",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "S3",
+    "toDus",
+    "Cuba",
+    "Datos",
+    "Free",
+    "Gratis"
+  ],
+  "author": "svcu",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.9"
+  }
+}
