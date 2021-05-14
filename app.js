@@ -48,3 +48,9 @@ app.get("/channel", async(req, res)=>{
     res.json(await channel.find());
 })
 
+app.get("/cat/:c", async(req, res)=>{
+    const selectedChannels = await channel.find({category: req.params.c})
+
+    res.json(selectedChannels);
+})
+
